@@ -18,6 +18,13 @@
 4. **Obsidian vault** (`~/Library/CloudStorage/Dropbox/Obsidian/research-vault/`): this
    project's notes will appear there as a `Projects/` symlink to `Notes/`. Write only
    project-related notes; never touch `Private/` or `.obsidian/`.
+5. **Two-machine sync discipline.** Lucie works on this repo from two Macs; GitHub is
+   the only sync channel. At the START of every session, run `git status` and
+   `git fetch` (or `git pull`): report any uncommitted changes, unpushed commits, or
+   commits behind origin BEFORE doing other work, and do not edit over a dirty or
+   stale tree without flagging it. At the END of every session (and before any large
+   edit), remind Lucie to commit and push; never leave work uncommitted at session end
+   without saying so explicitly.
 
 ## Project Layout
 
