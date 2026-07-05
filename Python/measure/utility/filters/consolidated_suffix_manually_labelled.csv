@@ -1,0 +1,934 @@
+manual_RCS,Code,Meaning,Filter
+,0.423,Lynx Test code,1
+,0.423,Test Code,1
+,0.423001,ABS issue terms,0
+,0.423001,New ABS Issuance Information,0
+RR:4177,0.423001,ABS issue terms,0
+RR:4178,0.423002,ABS issuance list,0
+,0.423002,ABS issuance list,0
+,0.423002,New ABS Issuance at a glance,0
+,0.423003,ABS Issuance Plans,0
+,0.423003,ABS pipeline,0
+RR:4179,0.423003,ABS pipeline,1
+,0.423004,ABS Deals of the Day,0
+,0.423004,ABS Topics & Features,0
+RR:4180,0.423004,ABS Deals of the Day,0
+,0.423005,ABS Headlines,0
+RR:4181,0.423005,ABS Headlines,0
+,0.42301,SB and Equity-linked bond issue terms,0
+,0.42301,SB and Equity-linked bonds,0
+RR:4140,0.42301,SB and Equity-linked bond issue terms,1
+RR:4182,0.42301,Zaito bond lead managers,0
+,0.42301,Zaito bond lead managers,0
+,0.42301,Zaito bonds (top 30 lead managers),0
+,0.423011,Zaito bonds (top 30 bookrunners),0
+RR:4183,0.423011,Zaito bond bookrunners,0
+,0.423011,Zaito bond bookrunners,0
+RR:4184,0.423012,Zaito bond underwriting amount,0
+,0.423012,Zaito bonds (top 50 underwriting amount),0
+,0.423012,Zaito bond underwriting amount,0
+RR:4185,0.423013,Municipal bond lead managers,0
+,0.423013,Municipal bonds (top 15 lead managers),0
+,0.423013,Municipal bond lead managers,0
+RR:4186,0.423014,Municipal bond bookrunners,0
+,0.423014,Municipal bonds (top 15 bookrunners),0
+,0.423014,Municipal bond bookrunners,0
+RR:4187,0.423015,Municipal bond underwriting amount,0
+,0.423015,Municipal bond underwriting amount,0
+,0.423015,Municipal bonds (top 30 underwriting amount),0
+RR:4141,0.42302,Samurai and Asian bond issue terms,0
+,0.42302,Samurai and Asian bond issue terms,0
+,0.42302,Samurai and Asian bonds,0
+RR:4142,0.42303,Eurobond issue terms,0
+,0.42303,Eurobond issue terms,0
+,0.42303,Eurobonds,0
+RR:4143,0.42304,Swiss and other bond issue terms,0
+,0.42304,Swiss and other bonds,0
+,0.42304,Swiss and other bond issue terms,0
+,0.42305,Domestic bond issuance list,0
+,0.42305,New domestic bond issuance at a glance,0
+RR:4144,0.42305,Domestic bond issuance list,0
+,0.42306,New Eurobond issuance at a glance,0
+RR:4145,0.42306,Eurobond issuance list,0
+,0.42306,Eurobond issuance list,0
+RR:4146,0.42307,Swiss and other bond issuance list,0
+,0.42307,Swiss and other bond issuance list,0
+,0.42307,New Swiss and other bond issuance at a glance,0
+,0.42308,Domestic bond issuance amounts at a glance,0
+,0.42308,Domestic bond issuance amounts,0
+RR:4147,0.42308,Domestic bond issuance amounts,0
+RR:4148,0.4231,SB and Samurai shelf registration,0
+,0.4231,SB and Samurai shelf registration,0
+RR:4188,0.423101,IPO issue terms,0
+,0.423101,IPO (primary/secondary share offers),0
+,0.423101,IPO issue terms,0
+,0.423102,PO issue terms,0
+RR:4189,0.423102,PO issue terms,0
+,0.423102,PO (primary/secondary share offers),0
+RR:4190,0.423103,Equity-linked bond issue terms,0
+,0.423103,Equity-linked bond issue terms,0
+,0.423103,Equity-linked bonds,0
+RR:4191,0.423104,Exchangeable/index-linked bond issue terms,0
+,0.423104,Exchangeable/index-linked bond issue terms,0
+,0.423104,Exchangeable/index linked bonds,0
+,0.423105,PO list,0
+,0.423105,New PO deals at a glance,0
+RR:4156,0.423105,PO list,0
+,0.423105,IPO list,0
+,0.423106,New IPO deals at a glance,0
+,0.423106,PO list,0
+RR:4157,0.423106,IPO list,0
+,0.423106,IPO list,0
+,0.423107,Equity-linked bond list,0
+RR:4192,0.423107,Equity-linked bond list,0
+,0.423107,New equity-linked bond deals at a glance,0
+RR:4193,0.423108,Equity-linked structured bond list,0
+,0.423108,New exchangeable bond deals at a glance,0
+,0.423108,Equity-linked structured bond list,0
+,0.423109,Issuance amounts at a glance,0
+RR:4194,0.423109,Issuance amounts list,0
+,0.423109,Issuance amounts list,0
+RR:4195,0.42311,IPO/PO schedule,0
+RR:4149,0.42311,Japanese issuer pipeline,0
+,0.42311,Japanese issuer pipeline,0
+,0.42311,IPO/PO schedule,0
+,0.42311,Primary/secondary share offer schedule,0
+RR:4196,0.423111,Equity-linked bond schedule,0
+,0.423111,Equity-linked bond schedule,0
+RR:4829,0.423112,Equity-linked structured bond schedule,0
+,0.423112,Equity-linked structured bond schedule,0
+,0.423112,Exchangeable bond schedule,0
+,0.423113,Equity Shelf registration,0
+,0.423113,Shelf registration,0
+RR:4830,0.423113,Equity Shelf registration,0
+,0.423114,IPO related,0
+RR:4831,0.423114,IPO rumours,0
+,0.423114,IPO rumours,0
+RR:4832,0.423115,PO rumours,0
+,0.423115,PO rumours,0
+,0.423115,PO related,0
+RR:4833,0.423118,IPOs of the Day,0
+,0.423118,IPOs of the day,0
+,0.423118,IPOs of the Day,0
+RR:4834,0.423119,Equity Special Features,0
+,0.423119,Special Features,0
+,0.423119,Equity special Features,0
+,0.423119,Equity Special Features,0
+,0.42312,Non-Japanese issuer pipeline,0
+RR:4835,0.42312,Equity Rumour Hotline,0
+RR:4150,0.42312,Non-Japanese issuer pipeline,0
+,0.42312,Equity Rumour Hotline,0
+,0.42312,Rumours Hotline,0
+RR:4836,0.423122,PO bookrunners,0
+,0.423122,PO bookrunners,0
+,0.423122,PO bookrunners (primary & secondary share offerings),0
+,0.423124,PO underwriting amount (primary & secondary share,0
+RR:4837,0.423124,PO underwriting amount,0
+,0.423124,PO underwriting amount,0
+,0.423124,PO underwriting amount (primary & secondary share offerings),0
+RR:4838,0.423126,IPO bookrunners,0
+,0.423126,IPO bookrunners (primary & secondary share offerings),0
+,0.423126,IPO bookrunners,0
+,0.423128,IPO underwriting amount (primary & secondary share,0
+,0.423128,IPO underwriting amount,0
+,0.423128,IPO underwriting amount (primary & secondary share offerings),0
+RR:4839,0.423128,IPO underwriting amount,0
+,0.42313,Deals of the Day issuance analysis,0
+RR:4151,0.42313,SB/Samurai/Global bond Deals of the Day,0
+,0.42313,SB/Samurai/Global bond Deals of the Day,0
+,0.42313,SB deals of the day,0
+RR:4840,0.42313,Equity bookrunners (overseas),0
+,0.42313,Equity bookrunners (overseas),0
+,0.42313,Bookrunners (overseas primary & secondary share offerings),0
+,0.42313,Bookrunners (overseas primary & secondary share,0
+,0.423132,J-REIT bookrunners,0
+RR:4841,0.423132,J-REIT bookrunners,0
+RR:4842,0.423133,J-REIT underwriting amount,0
+,0.423133,J-REIT underwriting amount,0
+RR:4843,0.423136,DWE Announcements,1
+,0.423136,Equity Announcement,1
+,0.423136,DWE Announcements,1
+RR:4844,0.423137,POWL issue terms,0
+,0.423137,International issuers,0
+,0.423137,POWL issue terms,0
+,0.423138,Other issue terms,0
+RR:4845,0.423138,Other issue terms,0
+,0.423138,Others,0
+,0.42314,Debt Special Features/Topics,0
+,0.42314,Special Features/Topics,0
+RR:4152,0.42314,Debt Special Features / Topics,0
+,0.42316,Straight bond bookrunners,0
+,0.42316,Straight bonds (top 30 bookrunners),0
+RR:4153,0.42316,Straight bond bookrunners,0
+,0.42317,Straight bond underwriting amount,0
+RR:4154,0.42317,Straight bond underwriting amount,0
+,0.42317,Straight bonds (top 50 underwriting amount),0
+,0.42318,Bookrunners (domestic equity-linked bonds),0
+,0.42318,Domestic equity-linked bond bookrunners,0
+RR:4155,0.42318,Domestic equity-linked bond bookrunners,0
+,0.42319,Underwriting amount (domestic equity-linked bonds),0
+,0.42319,Equity linked bonds (top 30 underwriting amount),0
+,0.42319,Equity-linked bond underwriting amount,0
+RR:4868,0.42319,Domestic equity-linked bond underwriting amount,0
+,0.42319,Domestic equity-linked bond underwriting amount,0
+RR:4158,0.4232,Straight bond fiscal agents,0
+,0.4232,Straight bonds (top 15 fiscal agents),0
+,0.4232,Straight bond fiscal agents,0
+,0.42321,SB+Equity linked+samuri (top 30 chief commission bank),0
+,0.42321,SB + Equity linked + samuri (top 30 chief commission bank),0
+RR:4869,0.42321,SB/Equity-linked/Samurai chief commission banks,0
+,0.42321,SB/Equity-linked/Samurai chief commission banks,0
+,0.42322,Samurai bond bookrunners,0
+,0.42322,Samurai bonds (top 15 bookrunners),0
+RR:4159,0.42322,Samurai bond bookrunners,0
+,0.42323,Samurai bond underwriters,0
+,0.42323,Samurai bonds (top 30 underwriters),0
+RR:4160,0.42323,Samurai bond underwriters,0
+RR:4161,0.42325,Combined Eurobond issuance bookrunners,0
+,0.42325,Combined Eurobond issuance bookrunners,0
+,0.42325,Combined Eurobond issuance (top 50 bookrunners),0
+,0.42326,Eurobond bookrunners,0
+,0.42326,Eurobonds (top 50 bookrunners),0
+RR:4162,0.42326,Eurobond bookrunners,0
+RR:4163,0.42327,Swiss bond bookrunners,0
+,0.42327,Swiss bond bookrunners,0
+,0.42327,Swiss bonds (top bookrunners),0
+,0.42328,Bookrunners (Japanese equity-linked foreign bonds),0
+,0.42328,Japanese equity-linked foreign bond bookrunners,0
+RR:4164,0.42328,Japanese equity-linked foreign bond bookrunners,0
+RR:4165,0.42329,Domestic Debt bookrunners,0
+,0.42329,Domestic Debt (top 30 bookrunners),0
+,0.42329,Domestic Debt bookrunners,0
+RR:4166,0.4233,Domestic Debt underwriting amount,0
+,0.4233,Domestic Debt underwriting amount,0
+,0.4233,Domestic Debt (top 30 underwriting amount),0
+,0.42331,Combined Debt bookrunners,0
+RR:4167,0.42331,Combined Debt bookrunners,0
+,0.42331,Combined Debt (top 30 bookrunners),0
+RR:4168,0.42332,DWD Announcements,1
+,0.42332,DWD Announcements,1
+,0.42332,Announcements Debt,1
+RR:4169,0.42336,Straight bond lead managers,0
+,0.42336,Straight bonds (top 30 lead managers),0
+,0.42336,Straight bond lead managers,0
+,0.42347,Domestic ABS bookrunners,0
+,0.42347,Domestic ABS (top 15 bookrunners),0
+RR:4170,0.42347,Domestic ABS bookrunners,0
+RR:4171,0.4236,Domestic ABS underwriting amount,0
+,0.4236,Domestic ABS (top 30 underwriting amount),0
+,0.4236,Domestic ABS underwriting amount,0
+,0.42361,GGI Straight bonds (top 15 bookrunners),0
+,0.42361,GGI Straight bond bookrunners,0
+RR:4172,0.42361,GGI Straight bond bookrunners,0
+RR:4173,0.42362,GGI Straight bond lead managers,0
+,0.42362,GGI Straight bonds (top 15 lead managers),0
+,0.42362,GGI Straight bond lead managers,0
+RR:4174,0.42363,GGI Straight bond underwriting amount,0
+,0.42363,GGI Straight bonds (top 30 underwriting amount),0
+,0.42363,GGI Straight bond underwriting amount,0
+RR:4175,0.4238,Combined ABS bookrunners,0
+,0.4238,Combined ABS bookrunners,0
+,0.4238,Combined ABS (top 15 bookrunners),0
+RR:4846,0.423802,Stock split/section transfers list,0
+,0.423802,Stock split/section transfers list,0
+,0.423802,Stock split/listing changes at a glance,0
+,0.423803,PO / REIT / CB deals of the Day,0
+,0.423803,Deals of the Day,0
+,0.423803,PO/REIT/CB Deals of the Day,0
+RR:4847,0.423803,PO/REIT/CB Deals of the Day,0
+,0.423804,Market Pointers/Topics,0
+,0.423804,Equity Market Pointers/Topics,0
+RR:4848,0.423804,Equity Market Pointers/Topics,0
+,0.423805,Stock lending market,0
+,0.423805,Stock Lending Market,0
+RR:4849,0.423805,Stock Lending Market,0
+,0.423806,Credit Default Swap Market (E),0
+,0.42381,Combined ABS (top 15 lead managers),0
+,0.42381,Combined ABS lead managers,0
+RR:4176,0.42381,Combined ABS lead managers,0
+RR:4851,0.423901,Credit Default Swap Market,0
+,0.423901,Credit Default Swap Market,0
+,0.423901,Credit Default Swap Market (D),0
+RR:4852,0.423903,Loan Market,0
+,0.423903,Loan Market,0
+RR:4853,0.423904,SB Secondary Market,0
+,0.423904,SB Secondary Market,0
+,0.423905,Municipal bond Headlines,0
+,0.423905,Municipal Bond Headlines,0
+RR:4855,0.423911,Municipal bond issue terms,0
+,0.423911,Municipal bond issue terms,0
+,0.423911,New Municipal Issuance Information,0
+RR:4856,0.423912,Municipal bond issuance list,0
+,0.423912,Municipal bond issuance list,0
+,0.423912,New Municipal Issuance at a glance,0
+,0.423913,Municipal Issuance Plans,0
+,0.423913,Municipal issuance pipeline,0
+RR:4857,0.423913,Municipal issuance pipeline,0
+,0.423914,Deals of the Day Issuance Analysis,0
+,0.423914,Muncipal bond deals of the Day,0
+,0.423914,Municipal bond Deals of the Day,0
+,0.423914,Municipal bond deals of the day,0
+RR:4858,0.423914,Municipal bond deals of the day,0
+,.A,AMEX Closing Averages,0
+,.AATEST,Test code,0
+,.AC,Accra Stocks,0
+,.AC,Ghana stocks,0
+,.AE,United Arab Emirates Stocks,0
+,.AFB,Weekly African business feature,1
+,.AH,Ahmedabad Stocks,0
+,.AM,Amman Stocks,0
+,.AM,Jordan stocks,0
+,.AS,Amsterdam Stocks,0
+,.ASDE,Amsterdam Stocks (German),0
+,.ASDJ,Dow Jones Amsterdam Stocks,0
+,.ASFR,Amsterdam Stocks (French),0
+,.ASIACN,Asia stocks (Chinese),0
+RR:651,.ASIAII,Asia stock market report (Italian),0
+,.ASIAII,Asia stocks (Italian),0
+,.ASIAPT,Asia stocks (Portuguese),0
+,.ASIDJ,Dow Jones Asian Titans Index Components,0
+,.AT,Athens Stocks,0
+,.AT,Greece stocks,0
+,.ATDJ,Dow Jones Athens Stocks,0
+,.AUJ,Australia stocks (Japanese),0
+,.AUJ,Austrlia Bond Market Report,0
+,.AUJ,Australia Bond Market Report,0
+RR:1035,.AUJ,Australia stocks (Japanese),0
+RR:1115,.AX,Australia stocks,0
+,.AX,Sydney Stocks,0
+,.AX,Australia stocks,0
+,.AX/A,AAP Australian Stocks,0
+,.AX/I,Technical Analysis - Australian Stocks,0
+,.AX/I,INSIGHT - Australian Stocks,0
+,.AX/OV,Australian Stocks Overseas,0
+,.AXCN,Australia Stock Market Report,0
+RR:1044,.AXCN,Australia stocks (Chinese),0
+,.AXCN,Australia Stocks (Chinese),0
+,.AXCN,Australia stocks (Chinese),0
+,.AXDE,Australia Stocks (German),0
+,.AXDE,Sydney Stocks (German),0
+,.AXDE,Australia stocks (German),0
+,.AXDJ,Dow Jones Sydney Stocks,0
+,.AXFR,Sydney Stocks (French),0
+,.AXTH,Australia stocks (Thai),0
+RR:2242,.AXTH,Australia stocks (Thai),0
+,.B20DJ,Dow Jones Bel 20 Components,0
+,.BA,Argentina stocks,0
+,.BA,Buenos Aires Stocks,0
+,.BADITH,Baltic dry index (Thai),0
+RR:2243,.BADITH,Baltic dry index (Thai),0
+,.BADJ,Dow Jones Buenos Aires Stocks,0
+,.BAES,Argentina stocks (Spanish),0
+,.BALT,Baltic Stock Market Report,0
+,.BALT,Baltic Stocks,0
+,.BB,Bulgaria stocks,0
+,.BB,Bulgarian Stocks,0
+,.BB,Bulgarian stock market report,0
+,.BG,Bogota Stocks,0
+,.BGDJ,Dow Jones Bogota Stocks,0
+,.BH,Bahrain Stocks,0
+,.BH,Bahrain stocks,0
+,.BICS,Czech BICS Bond Index,0
+,.BK,Thailand stocks,0
+,.BK,Bangkok Stocks,0
+,.BKCN,Bangkok Stocks (Chinese),0
+,.BKCN,Thai Stocks (Chinese),0
+,.BKCN,Thailand stocks (Chinese),0
+,.BKDJ,Dow Jones Thailand stocks,0
+,.BKDJ,Dow Jones Bangkok stocks,0
+,.BKJ,Bangkok Stocks (kanji),0
+RR:1140,.BKJ,Thailand stocks (Japanese),0
+,.BKJ,Bangkok Stocks (Kanji),0
+,.BKJ,Thailand stocks (Japanese),0
+,.BKJ,Thailand stocks (Kanji),0
+RR:2244,.BKTH,Thailand stocks (Thai),0
+,.BKTH,Thailand stocks (Thai),0
+,.BL,Beirut Secondary Market,0
+,.BNL,Benelux Stocks,0
+,.BNL,Benelux stocks,0
+RR:1122,.BO,India stocks,0
+,.BO,Bombay Stocks,0
+,.BO,India stocks,0
+,.BODJ,Dow Jones Bombay Stocks,0
+,.BOJ,Bank of Japan Report (Kanji),0
+,.BOJ,Bombay Market Report,0
+,.BOJ,Bank of Japan Report (Japanese),0
+,.BR,Brussels Stocks,0
+RR:4633,.BRCJ,Emerging market summary (Japanese),1
+,.BRCJ,BRICs market summary (Japanese),1
+,.BRDE,Brussels Stocks (German),0
+,.BRDJ,Dow Jones Brussels Stocks,0
+,.BRDJ,Dow Jones Brussels stocks,0
+,.BRFR,Brussels Stocks (French),0
+,.BU,Hungary stocks,0
+,.BU,Budapest Stocks,0
+,.BUDJ,Dow Jones Budapest Stocks,0
+,.BUDJ,Dow Jones Budapest stocks,0
+,.BV,Bratislava Stocks,0
+,.BX,Bucharest Stocks,0
+,.CA,Cairo Stocks,0
+,.CA,Egypt stocks,0
+,.CACDJ,Dow Jones CAC 40 Components,0
+,.CDE,Raw materials reports (German),1
+RR:4919,.CDE,Raw materials reports (German),1
+,.CEE,Eastern Europe stocks,0
+RR:1151,.CEE,Eastern Europe stocks,0
+,.CESI,CESI Index,0
+,.CI,Abidjan Stock Market Report,0
+,.CI,Abidjan stocks,0
+,.CI,Abidjan Stocks,0
+,.CL,Calcutta Stocks,0
+,.CM,Colombo Stocks,0
+,.CM,Sri Lanka stocks,0
+,.CMDJ,Dow Jones Colombo Stocks,0
+,.CMDJ,Dow Jones Colombo stocks,0
+,.CO,Copenhagen Stocks,0
+,.CODJ,Dow Jones Copenhagen Stocks,0
+,.CR,Caracas Stocks,0
+,.CRDJ,Dow Jones Caracas Stocks,0
+,.CS,Casablance Stocks,0
+,.CS,Casablanca Stocks,0
+,.CS,Morocco stocks,0
+,.CY,Cyprus Stocks,0
+,.CY,Cyprus stocks,0
+,.CZ,Czech Stocks,0
+,.DA,Bangladesh stocks,0
+,.DA,Dhaka Stocks,0
+,.DB,Ireland stocks,0
+,.DB,Dublin Stocks,0
+,.DBDJ,Dow Jones Dublin Stocks,0
+,.DBDJ,Dow Jones Dublin stocks,0
+,.DE,Delhi Stocks,0
+,.DE,Delhi Stock Market Report,0
+,.DE,Dehli Stocks,0
+,.DIA,US election campaign diary,1
+,.DJBOT,DJ Focus,0
+,.DJBOT,DJ The bottom line,0
+,.DJEU,DJ European stock comment,0
+,.DJIDJ,Dow Jones Industrial Average Components,0
+,.DJTEQ,DJ European equity index technicals,0
+,.DJUSMT,DJ US equities market talk,0
+RR:646,.EES,World stock market wrap (Spanish),1
+,.EES,World stock market wrap (Spanish),1
+,.EMRG,Emerging Markets Crisis,1
+,.EU,European stocks,0
+,.EU,European Stocks,0
+RR:850,.EU,European stocks,0
+,.EU,European stocks reports,0
+,.EU./O,Pan European Weekly Stocks Outlook,0
+,.EU/O,European stocks weekly outlook,0
+,.EU/O,Pan European Weekly Stocks Outlook,0
+RR:2096,.EUCN,European stock market report (Chinese),0
+,.EUCN,European stocks (Chinese),0
+,.EUDE,Int'l Financial Markets Wrap-up (German),2
+,.EUDJ,Dow Jones Europe Market Talk,1
+,.EUES,European stocks (Spanish),0
+RR:654,.EUES,European stock market report (Spanish),0
+,.EUFR,European Stocks (French),0
+RR:344,.EUFR,European stock market report (French),0
+,.EUFR,**LE POINT SUR LES MARCHES**,0
+,.EUII,European stocks (Italian),0
+RR:653,.EUII,European stock market report (Italian),0
+RR:655,.EUPT,European stock market report (Portuguese),0
+,.EUPT,European stocks (Portuguese),0
+,.EUSMCAPS,Small & mid-cap European company performance,1
+,.EUSMCAPS,Small & mid-cap European company performance (French),1
+RR:2047,.EUSMCAPS,Small & mid-cap European company performance (French),1
+,.EUSTX,ADVISORY - European Stock Market Reports,1
+,.EUTH,European stocks (Thai),0
+RR:2250,.EUTH,European stocks (Thai),0
+,.F,Germany stocks,0
+,.F,Frankfurt Stocks,0
+,.F/O,German Stocks Outlook,0
+,.FCN,Germany stocks (Chinese),0
+,.FCN,Frankfurt Stocks (Chinese),0
+,.FDE,Frankfurt Stocks (German),0
+,.FDE,Germany stocks (German),0
+RR:1245,.FDE,Germany stocks (German),0
+RR:218,.FDE/O,Germany stocks outlook (German),0
+,.FDE/O,Germany stocks outlook (German),0
+,.FDE/U,Transactions on German stock exchange (German),0
+,.FDJ,Dow Jones Frankfurt Stocks,0
+,.FES,Frankfurt Stocks (Spanish),0
+,.FES,Germany stocks (Spanish),0
+,.FFR,Frankfurt Stock (French),0
+,.FINDJ,Dow Jones Sector Titan Index - Financial,0
+,.FJ,Frankfurt Stocks (kanji),0
+,.FJ,Germany stocks (Kanji),0
+,.FJ,Germany stocks (Japanese),0
+,.FJ,Frankfurt Stocks (Kanji),0
+RR:1254,.FJ,European stocks (Japanese),0
+,.FRCONSENS,Poll - French company results (French),0
+RR:3027,.FREMRG,Emerging markets - performance (French),1
+,.FREMRG,Emerging markets - performance (French),1
+RR:1416,.FRSMCAPS,Small & mid-cap French company performance (French),0
+,.FRSMCAPS,Small & mid-cap French company performance (French),0
+,.FRSMCAPS,Small & mid-cap French company performance,0
+,.FTSEDJ,Dow Jones FTSE100 Components,0
+,.GLODJ,Dow Jones Global Titans Index Components,0
+,.GVAUCJ,Japan MOF government bond auction,1
+,.GVAUCJ,Japan MOF government bond auction (Japanese),1
+RR:4479,.GVAUCJ,Japan MOF government bond auction,1
+,.HE,Finland stocks,0
+,.HE,Helsinki Stocks,0
+,.HK,Hong Kong Stocks,0
+RR:1100,.HK,Hong Kong stocks,0
+,.HK,Hong Kong stocks,0
+,.HK/O,Hong Kong Stocks Weekly Outlook,0
+,.HKCN,Hong Kong stocks (Chinese),0
+RR:1255,.HKCN,Hong Kong stocks (Chinese),0
+,.HKCN,Hong Kong Stocks (Chinese),0
+,.HKDE,Hong Kong stocks (German),0
+,.HKDE,Hong Kong Stocks (German),0
+,.HKDJ,Dow Jones Hong Kong Stocks,0
+,.HKFR,Hong Kong Stocks (French),0
+RR:1263,.HKJ,Hong Kong stocks (Japanese),0
+,.HKJ,Hong Kong stocks (Japanese),0
+,.HKJ,Hong Kong stocks (Kanji),0
+,.HKJ,Hong Kong Stocks (kanji),0
+,.HKJ,Hong Kong Stocks (Kanji),0
+RR:2245,.HKTH,Hong Kong stocks (Thai),0
+,.HKTH,Hong Kong stocks (Thai),0
+,.HNWI,Prague HN-Wood Index,0
+,.INSBJ,Instant view on Japan bond market,1
+,.INSBJ,Instant view on Japan bond market (Japanese),1
+RR:4475,.INSBJ,Instant view on Japan bond market (Japanese),1
+,.INSFJ,Instant view on Japan forex market (Japanese),1
+,.INSFJ,Instant view on Japan forex market,1
+RR:4476,.INSFJ,Instant view on Japan forex market (Japanese),1
+RR:4477,.INSMJ,Instant view on Japan macro economy (Japanese),1
+,.INSMJ,Instant view on Japan macro economy and others,1
+,.INSMJ,Instant view on Japan macro economy and others (Japanese),1
+,.INSSJ,Instant view on Japan stock market (Japanese),1
+RR:4478,.INSSJ,Instant view on Japan stock market (Japanese),1
+,.INSSJ,Instant view on Japan stock market,1
+,.IR,Iranian Stocks Reports,2
+,.IS,Istanbul Stocks,0
+,.IS,Turkey stocks,0
+RR:220,.IS,Turkey stocks,0
+,.ISDJ,Dow Jones Istanbul Stocks,0
+,.ISEQ,Irish Stock Exchange Report,0
+,.ISEQ,Irish stocks,0
+,.ISEQ,Irish Stocks,0
+,.ISLAMDJ,Dow Jones Islamic Index,0
+,.ISTR,Turkey stocks (Turkish),0
+,.ISTR,Istanbul Stocks (Turkish),0
+,.IT/F,Italy Stock Futures (Italian),0
+RR:1163,.J,South Africa stocks,0
+,.J,South Africa stocks,0
+,.J,Johannesburg Stocks,0
+,.JDJ,Dow Jones Johannesburg Stocks,0
+,.JFR,Johannesburg Stocks (German),0
+,.JK,Indonesia stocks,0
+,.JK,Jakarta Stocks,0
+,.JKCN,Jakarta Stocks (Chinese),0
+,.JKCN,Indonesia stocks (Chinese),0
+,.JKDJ,Dow Jones Jakarta Stocks,0
+,.JKDJ,Dow Jones Jakarta stocks,0
+,.JKJ,Jakarta Market Report,2
+RR:1352,.JPCM,Japanese news - cross market report (Japanese),1
+,.JPCM,Japanese News - Cross Market Report (Kanji),1
+,.JPCM,Japanese News - Cross Market Report (kanji),1
+,.JPCM,Japanese News - Cross Market Report (Japanese),1
+RR:1446,.JPCR,CDS market (Japanese),1
+,.JPCR,Japanese News - Credit Market Report (Kanji),1
+,.JPCR,Japanese News - Credit Market Report (kanji),1
+,.JPCR,Japanese News - Credit Market Report (Japanese),1
+RR:3388,.JPII,Tokyo stock market report (Italian),1
+,.JPII,Tokyo stock market report (Italian),1
+,.JPNEW,Japanese News - New Market Report (kanji),1
+,.JPNEW,Japanese News - New Market Report (Kanji),1
+,.JPNEW,Japanese News - New Market Report (Japanese),1
+,.JPOTC,Japanese News - Display Market Report (Kanji),1
+,.JPOTC,Japanese News - Display Market Report (kanji),1
+,.JPOTC,Japanese News - Display Market Report (Japanese),1
+,.JPSB,Japanese domestic bond secondary market report,1
+,.KA,Karachi Stocks,0
+,.KA,Pakistan stocks,0
+RR:1124,.KL,Malaysia stocks,0
+,.KL,Kuala Lumpur Stocks,0
+,.KL,Malaysia stocks,0
+,.KL/F,Kuala Lumpur KLOFFE Stock Index Futures,0
+,.KLCN,Kuala Lumpur Stocks (Chinese),0
+,.KLCN,Malaysia stocks (Chinese),0
+,.KLDJ,Dow Jones Kuala Lumpur Stocks,0
+,.KLDJ,Dow Jones Kuala Lumpur stocks,0
+,.KLDJ,Dow Jones Kula Lumpur Stocks,0
+,.KLJ,Kuala Lumpur Stocks (kanji),0
+,.KLJ,Malaysia stocks (Kanji),0
+,.KLJ,India stocks (Japanese),0
+,.KLJ,Malaysia stocks (Japanese),0
+,.KLJ,Kuala Lumpur Stocks (Kanji),0
+RR:1529,.KLJ,India stocks (Japanese),0
+RR:2246,.KLSITH,Malaysia & Singapore stocks (Thai),0
+,.KLSITH,Malaysia & Singapore stocks (Thai),0
+RR:1104,.KS,South Korea stocks,0
+,.KS,South Korea stocks,0
+,.KS,South Korea Stocks,0
+,.KSCN,Daily South Korean Stocks report (Chinese),0
+RR:4934,.KSCN,Daily South korean stocks report (Chinese),0
+,.KSTH,South Korea stocks (Thai),0
+RR:2247,.KSTH,South Korea stocks (Thai),0
+,.KW,Kuwait Stocks (weekly report),0
+,.KW,Kuwait stocks,0
+,.L,London Stocks,0
+RR:1200,.L,UK stocks,0
+,.L,UK stocks,0
+,.L/A,London Australian Stocks,0
+,.L/G,London Gold Stocks,0
+,.L/HK,London Hong Kong Stocks,0
+,.L/J,London Japanese Stocks,0
+,.L/J,Japan stocks in Europe,0
+,.L/JDJ,Dow Jones Asian Shares In London.,0
+,.L/JDJ,Dow Jones Asian Shares In London,0
+,.L/JP,SEAQ Japanese Stocks,0
+,.L/JP,Euro Market - Japanese Stocks (Kanji),0
+,.L/JP,Euro Market - Japanese Stocks (Japanese),0
+,.L/JP,Euro Market - Japanese Stocks,0
+,.L/O,London Stocks Outlook,0
+,.L/O,UK stocks weekly outlook,0
+,.L/R,U.K. Shares,0
+,.L/R,UK Shares,0
+,.L/US,US stocks in Europe,0
+,.L/US,London US Stocks,0
+,.L/USDJ,Dow Jones London US Stocks,0
+,.L/USDJ,Dow Jones London U.S. Stocks,0
+,.L/XD,UK ex-dividend Stocks,0
+,.L/XD,UK stocks ex-dividend,0
+,.L/XD,U.K. ex-dividend Stocks,0
+RR:228,.L/XD,UK stocks ex-dividend,0
+,.LATMJ,Latin America market summary (Japanese),1
+RR:4648,.LATMJ,Latin America market summary (Japanese),1
+RR:1536,.LCN,UK stocks (Chinese),0
+,.LCN,UK stocks (Chinese),0
+,.LCN,London Stocks (Chinese),0
+,.LDE,London Stocks (German),0
+,.LDJ,Dow Jones London Hong Kong Stocks.,0
+,.LDJ,Dow Jones London Japanese Stocks.,0
+,.LDJ,Dow Jones London Stocks,0
+,.LDJ,Dow Jones London Stocks Outlook.,0
+,.LDJ,Dow Jones London Stocks.,0
+,.LDJ,Dow Jones London stocks,0
+,.LDJ,Dow Jones U.K. Shares.,0
+,.LDJ,Dow Jones UK stocks,0
+,.LES,London Stocks (Spanish),0
+RR:1538,.LES,UK stocks (Spanish),0
+,.LFR,London Stocks (French),0
+,.LG,Lagos Stocks,0
+,.LG,Nigeria stocks,0
+,.LG,Lagos Stock Market Report,2
+,.LI,Lisbon Stocks (Portuguese),0
+,.LI,Lisbon Stocks,0
+,.LIDJ,Dow Jones Lisbon Stocks,0
+,.LJ,London Stocks Summary (Kanji),0
+,.LJ,London Stocks Summary (kanji),0
+,.LJ,Slovenian Shares,0
+RR:1542,.LJP,UK stocks (Japanese),0
+,.LJP,London Stocks Summary (kanji),0
+,.LJP,London Stocks Summary (Kanji),0
+,.LJP,London Stocks Summary (Japanese),0
+,.LM,Lima Stocks,0
+,.LS,Lisbon Stocks (English),0
+,.LS,Portugal stocks,0
+,.LSPT,Portugal stocks (Portuguese),0
+RR:1325,.LSPT,Portugal stocks (Portuguese),0
+,.LTH,UK stocks (Thai),0
+RR:2248,.LTH,UK stocks (Thai),0
+,.M/I,Italian Stock Indices (Italian),0
+,.M/IES,Milan Bourse Closing (Spanish),0
+,.MA,Spain stocks,0
+,.MA,Madrid Stocks,0
+,.MA/F,IBEX Futures (Spanish),0
+,.MA/S,Madrid Bourse Sector Report,0
+,.MADJ,Dow Jones Madrid stocks,0
+,.MADJ,Dow Jones Madrid Stocks,0
+,.MAFR,Madrid Stocks (French),0
+,.MD,Madras Stocks,0
+,.ME,Russian Stocks,0
+,.ME,Russia stocks,0
+RR:231,.ME,Russia stocks,0
+,.MEDJ,Dow Jones Russia stocks,0
+,.MEDJ,Dow Jones Russian Stocks,0
+RR:1545,.MERU,Russia stocks (Russian),0
+,.MERU,Russian Stocks (Russian),0
+,.MERU,Russia stocks (Cyrillic),0
+RR:1547,.MES,Spain stocks (Spanish),0
+,.MES,Madrid Stocks (Spanish),0
+,.MES,Spain stocks (Spanish),0
+,.MES,Spanish Stocks (Spanish),0
+,.MI,Milan Stocks,0
+,.MI,Italy stocks,0
+,.MIBDJ,Dow Jones MIB30 Components,0
+,.MID,European mid and small cap report,1
+,.MID/EU,European mid and small cap report,1
+,.MIDE,Milan Stocks (German),0
+,.MIDEAST,Daily East stock market report,1
+RR:2251,.MIDEAST,Middle East stock market report,2
+,.MIDJ,Dow Jones Milan stocks,0
+,.MIDJ,Dow Jones Milan Stocks,0
+,.MIFR,Mialn Stocks (French),0
+,.MII,Italy stocks (Italian),0
+RR:1549,.MII,Italy stocks (Italian),0
+,.MN,Philippines stocks,0
+,.MN,Manila Stocks,0
+,.MNDJ,Dow Jones Manila Stocks,0
+,.MT,Malta Stock Market Report,0
+,.MT,Malta Stocks,0
+RR:1321,.MX,Mexico stocks,0
+,.MX,Mexico stocks,0
+,.MX,Mexico Stocks,0
+,.MXDJ,Dow Jones Mexico Stocks,0
+,.MZ,Mauritius Stocks,0
+RR:1300,.N,US stocks,0
+,.N,NYSE Stocks -  Wall Street Report,0
+,.N,NYSE Stocks,0
+RR:1238,.N/C,US stock market closing report,0
+,.N/O,Wall Street Week Ahead,0
+,.N/O,Wall St week ahead,0
+RR:1306,.N/O,US stocks weekly outlook,0
+,.N/O,Wall Street Daily Outlook,0
+,.N/OCN,Wall St week ahead (Chinese),0
+RR:547,.N/OCN,WEEK AHEAD - Wall St (Chinese),0
+,.N/ODJ,Dow Jones Wall Street Daily Outlook,0
+,.N/OPT,NYSE Options,0
+,.N/P,US stock market pre-opening report,0
+RR:1237,.N/P,US stock market pre-opening report,0
+,.N/S,Small & Mid cap stock market daily reports,0
+RR:3609,.N/S,Small & Mid cap stock market daily reports,0
+,.NA,Nairobi Stocks,0
+RR:1554,.NCN,US stocks (Chinese),0
+,.NCN,NYSE Stocks (Chinese),0
+RR:1555,.NDE,US stocks (German),0
+,.NDE,NYSE Stocks (German),0
+,.NDJ,Dow Jones NYSE Stocks,0
+,.NDQDJ,Dow Jones NASDAQ100 Components,0
+,.NES,NYSE Stocks (Spanish),0
+RR:1558,.NES,US stocks (Spanish),0
+,.NEUDJ,Dow Jones Neuer Markt Index Components,0
+,.NFR,NYSE Stocks (French),0
+RR:1560,.NFR,US stocks (French),0
+,.NII,NYSE stocks (Italian),0
+RR:656,.NII,US stocks (Italian),0
+,.NJ,NYSE Stocks (Kanji),0
+,.NJ/TA,NY Stock Technical Analysis (Kanji),0
+,.NJ/TA,NYSE Technical Analysis (Kanji),0
+,.NJ/TA,NY Stock Technical Analysis,0
+,.NJP,NYSE Stocks (Japanese),0
+,.NJP,NYSE Stocks (kanji),0
+RR:1561,.NJP,US stocks (Japanese),0
+,.NJP,NYSE Stocks (Kanji),0
+,.NMDE,NEUER MARKT (German),0
+,.NORD,Nordic Stock Market Report,0
+RR:233,.NORD,Nordic stocks,0
+,.NPT,NYSE stocks (Portuguese),0
+RR:657,.NPT,US stocks (Portuguese),0
+,.NR,Nairobi Stocks,0
+RR:2249,.NTH,NYSE stocks (Thai),0
+,.NTH,NYSE stocks (Thai),0
+,.NZ,New Zealand Stocks,0
+RR:235,.NZ,New Zealand stocks,0
+,.NZDJ,Dow Jones New Zealand Stocks,0
+,.O,NASDAQ Stocks,0
+,.OCN,NASDAQ Stocks (Chinese),0
+,.ODJ,Dow Jones NASDAQ Stocks,0
+,.OJ,NASDAQ Stocks (Kanji),0
+,.OL,Oslo Stocks,0
+,.OLDJ,Dow Jones Oslo Stocks,0
+,.OM,Oman Stocks (weekly report),0
+,.PA,Paris Stocks,0
+,.PACN,Paris Stocks (Chinese),0
+,.PACN,Paris Stocks (Chines),0
+,.PADE,PAris Stocks (German),0
+,.PADJ,Dow Jones Paris Stocks,0
+,.PAES,Paris Stocks (Spanish),0
+,.PAFR,Paris Stocks (French),0
+RR:1573,.PAFR,France stocks (French),0
+,.PAJ,Paris Stocks (Kanji),0
+,.PAJ,Paris Stocks (kanji),0
+,.PAJ,Paris Stocks (Japanese),0
+,.PL,"Port Louis, Mauritius Stocks",0
+,.POLL,US election - Zogby polls,1
+,.PR,Prague Stocks,0
+,.PRDJ,Dow Jones Prague Stocks,0
+,.PS,Philippines stocks,0
+,.PS,Philippines Stocks,0
+,.PSCN,Philippines Stocks (Chinese),0
+,.PSI,Philippine Main Index,0
+RR:1614,.PSJ,Manila Market Report (Japanese),2
+,.PSJ,Manila Market Report,2
+,.PSJ,Manila Market Report (Kanji),2
+,.PSJ,Manila Market Report (Japanese),2
+,.QA,Qatar Stocks,0
+,.RG,Riga Stocks,0
+,.RI,Riga Stock Market Report,0
+,.RI,Riga stocks,0
+,.RV,Saudi Stocks,0
+,.RY,Saudi Stocks,0
+,.S,Swiss Stocks .SDE        Swiss Stocks (German),0
+,.S,Swiss Stocks,0
+,.SA,Brazil Stocks,0
+,.SA,Sao Paulo Stocks,0
+,.SA,Sao Paolo Stocks,0
+,.SADJ,Dow Jones Sao Paolo stocks,0
+,.SADJ,Dow Jones Sao Paolo Stocks,0
+RR:1324,.SAPT,Brazil Stocks (Portuguese),0
+,.SAPT,Brazil stocks (Portuguese),0
+,.SAPT,Brazil Stocks (Portuguese),0
+,.SAPT,Sao Paulo Stocks (Portuguese),0
+RR:1616,.SDE,Switzerland stocks (German),0
+,.SDE,Swiss Stocks (German),0
+,.SDJ,Dow Jones Swiss Stocks,0
+,.SE,Seoul Stocks,0
+,.SEA,South East Asia stocks,0
+,.SECN,Seoul Stocks (Chinese),0
+,.SEDJ,Dow Jones Seoul Stocks,0
+,.SEJ,Seoul Stocks (Kanji),0
+RR:1645,.SEJ,South Korea stocks (Japanese),0
+,.SEJ,Seoul Stocks (kanji),0
+,.SEJ,Seoul Stocks (Japanese),0
+,.SES,Swiss Stocks (Spanish),0
+,.SFR,Swiss Stocks (French),0
+,.SH,Shanghai Stocks,0
+,.SI,Singapore Stocks,0
+RR:1134,.SI,Singapore stocks,0
+,.SI/FJ,Singapore Nikkei 225 Stock Futures,0
+,.SICN,Singapore Stocks (Chinese),0
+,.SIDJ,Dow Jones Singapore Stocks,0
+,.SIJ,Singapore Stocks (kanji),0
+RR:1671,.SIJ,Singapore stocks (Japanese),0
+,.SIJ,Singapore Stocks (Kanji),0
+,.SIJ,Singapore Stocks (Japanese),0
+,.SN,Santiago Stocks,0
+,.SNDJ,Dow Jones Santiago Stocks,0
+RR:632,.SO,South East Asia stock market report,0
+,.SO,Sofia Stocks,0
+,.SO,South East Asia stocks,0
+,.SOCN,SE Asia stock market report (Chinese),1
+RR:7250,.SOCN,SE Asia stock market report (Chinese),1
+,.SS,China Stock Market Reports,0
+,.SS,China stock market reports,0
+RR:244,.SS,China stocks,0
+,.SS,China Stocks,0
+,.SSCN,Shanghai Stocks (Chinese),0
+,.SSCN,Shanghai stocks (Chinese),0
+RR:1680,.SSCN,China stocks (Chinese),0
+,.SSDJ,Dow Jones China Stocks,0
+,.SSJ,Shanghai Market Repport,0
+,.ST,Stockholm Stocks,0
+,.STATES,Zogby 10-state poll,1
+,.STDE,Stockholm Stocks (German),0
+,.STDJ,Dow Jones Stockholm Stocks,0
+,.STDJ,Dow Jones Sweden stocks,0
+,.STOXDJ,Dow Jones Stoxx50 Components,0
+,.STX,World Markets (table),0
+,.SZ,Shenzhen Stocks,0
+,.SZCN,Shenzhen Stocks (Chinese),0
+,.SZCN,Shenzen Stocks (Chinese),0
+,.SZDJ,Dow Jones Shenzen Stocks,0
+RR:1691,.SZSA,Shenzhen class A shares - domestic investors,0
+,.SZSA,Shenzhen Class A Shrs - domestic investors,0
+RR:1692,.SZSB,Shenzhen class B shares - foreign / local investors,0
+,.SZSB,Shenzhen Class B Shrs - foreign/local investors,0
+RR:1105,.T,Japan stocks,0
+,.T,Japan stocks,0
+,.T,Tokyo Stocks,0
+,.T/F,Japan Stock Futures,0
+,.T/O,Japan stocks outlook,0
+,.TA,Israel stocks (updated on merit),0
+,.TA,Tel Aviv Stocks,0
+,.TADJ,Dow Jones Tel Aviv Stocks,0
+,.TADJ,Dow Jones Tel Avis Stocks,0
+,.TADJ,Dow Jones Israel stocks,0
+RR:1697,.TCN,Japan stocks (Chinese),0
+,.TCN,Tokyo Stocks (Chinese),0
+,.TCN,Japan stocks (Chinese),0
+RR:1698,.TDE,Japan stocks (German),0
+,.TDE,Tokyo Stocks (German),0
+,.TDE,Japan stocks (German),0
+,.TDJ,Dow Jones Tokyo Stocks,0
+,.TDJ,Dow Jones Japan stocks,0
+,.TECHDJ,Dow Jones Sector Titan Index - Technology,0
+,.TELEDJ,Dow Jones Sector Titan Index - Telecomms,0
+,.TES,Tokyo Stocks (Spanish),0
+RR:647,.TES,Japan stocks (Spanish),0
+,.TES,Japan stocks (Spanish),0
+RR:1706,.TFR,Japan stocks (French),0
+,.TFR,Japan stocks (French),0
+,.TFR,Tokyo Stocks (French),0
+,.TI,Tallinn stocks,0
+RR:1707,.TJ,Japan stocks (Japanese),0
+,.TJ,Tokyo Stocks (kanji),0
+,.TJ,Tokyo Stocks (Kanji),0
+,.TJ,Japan stocks (Kanji),0
+,.TJ,Japan stocks (Japanese),0
+,.TJ/F,Tokyo Stocks Futures and Options (Kanji),0
+,.TJ/FU,Tokyo Stocks Futures and Options Hourly (Kanji),0
+,.TJ/FU,Tokyo Stocks Future/Options Hourly (Kanji),0
+,.TJ/I,Tokyo Stocks Technical Analysis (kanji),0
+RR:1712,.TJ/I,Japan stocks technical analysis (Japanese),0
+,.TJ/I,Tokyo Stocks Technical Analysis (Kanji),0
+,.TJ/I,Japan stocks Technical Analysis (Kanji),0
+,.TJ/I,Japan stocks Technical Analysis (Japanese),0
+RR:1716,.TJ/O,Japan stocks outlook (Japanese),0
+,.TJ/O,Tokyo Stocks Outlook (Kanji),0
+,.TJ/O,Tokyo Stocks Outlook (kanji),0
+,.TJ/O,Japan stocks Outlook (Kanji),0
+,.TJ/O,Japan stocks Outlook (Japanese),0
+,.TJ/TO,Today's Outlook - Equities Market (Kanji),0
+,.TJ/TO,Today's outlook - equities market (Japanese),0
+,.TJ/TO,Today's outlook - equities market (Kanji),0
+RR:1717,.TJ/TO,Today's outlook - equities market (Japanese),0
+,.TJU,Tokyo Stocks Hourly (kanji),0
+,.TJU,Japan stocks hourly (Japanese),0
+,.TJU,Japan stocks hourly (Kanji),0
+,.TJU,Tokyo Stocks Hourly (Kanji),0
+RR:1718,.TJU,Japan stocks hourly (Japanese),0
+,.TL,Tallin Stock Market Report,0
+,.TL,Tallinn Stocks,0
+,.TN,Tunis Stocks,0
+RR:1311,.TO,Canada stocks,0
+,.TO,Canada stocks,0
+,.TO,Toronto Stocks,0
+,.TO/O,Bay Street Week Ahead,0
+RR:2231,.TO/O,Bay Street week ahead,0
+,.TOCN,Daily Canadian stocks closing reports (Chinese),0
+RR:4925,.TOCN,Daily Canadian stocks closing reports (Chinese),0
+,.TTH,Japan stocks (Thai),0
+RR:2275,.TTH,Tokyo stocks (Thai),0
+,.TW,Taiwan stocks,0
+RR:1120,.TW,Taiwan stocks,0
+,.TW,Taiwan Stocks,0
+,.TWCN,Taiwan stocks (Chinese),0
+,.TWCN,Taiwan Stocks (Chinese),0
+RR:1728,.TWCN,Taiwan stocks (Chinese),0
+,.TWDJ,Dow Jones Taiwan Stocks,0
+RR:1734,.TWJ,Taipei stocks (Japanese),0
+,.TWJ,Taipei Stocks (kanji),0
+,.TWJ,Taiwan stocks (Kanji),0
+,.TWJ,Taiwan stocks (Japanese),0
+,.TWJ,Taipei Stocks (Kanji),0
+,.TWJ,Taipei stocks (Kanji),0
+,.TWTH,Taiwan stocks (Thai),0
+RR:2276,.TWTH,Taiwan stocks (Thai),0
+,.VI,Vienna Stocks,0
+,.VI,Austria stocks,0
+,.VIAT,Vienna Stocks (German),0
+,.VIAT,Austria stocks reports (German),0
+RR:4922,.VIAT,Austria stocks reports (German),0
+,.VIDE,Vienna Stocks (German),0
+,.VIDJ,Dow Jones Vienna Stocks,0
+,.VIDJ,Dow Jones Austria stocks,0
+,.VL,Vilnius Stocks,0
+,.VL,Vilnius Stock Market Report,0
+,.VOTE,UK election snapshot,1
+,.VOTE,US election snapshot,1
+,.W,US Stock Options,0
+,.WA,Warsaw Stocks,0
+,.WADJ,Dow Jones Warsaw Stocks,0
+,.WADJ,Dow Jones Poland stocks,0
+,.Z,Zurich Stocks,0
+,.Z+,Glance - China Financial News,0
+,.ZA,Zagreb Stocks,0
+,.ZI,Zimbabwe Stocks,0
+,Attri.,Code),
+,GRA./UA,Ukrainian Grains,

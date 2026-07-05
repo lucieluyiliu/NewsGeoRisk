@@ -1,0 +1,19 @@
+[project]
+name = "newsgeorisk"
+version = "0.1.0"
+description = "News-based Geoeconomic Risk"
+requires-python = ">=3.11"
+dependencies = [
+    # Claude skills and MCP
+    "zotero-mcp",
+    "mistralai>=1,<2",
+    "python-dotenv",
+    "pypdf",
+    "pdf2image",
+    "pillow",
+    "reportlab",
+    # Python bridge scripts (SAS -> Parquet etc.)
+    "pyarrow",
+    "pyreadstat",
+    "pandas",
+]

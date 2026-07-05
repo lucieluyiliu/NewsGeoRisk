@@ -1,0 +1,46 @@
+# Symlinks to Dropbox (not tracked by git)
+/Data
+/Notes
+/Literature
+/Output
+
+# Data files (never commit)
+*.csv
+*.xlsx
+*.parquet
+*.mat
+*.sas7bdat
+*.RData
+*.rds
+*.zip
+*.dta
+*.csv.gz
+
+# Manually labelled filter lists are pipeline inputs, keep them
+!Python/measure/utility/filters/*.csv
+
+# Generated / draft output (drafts live in Output/)
+*.html
+*.png
+*.eps
+*.pdf
+
+# R
+.Rhistory
+.Rproj.user
+
+# Python
+__pycache__/
+*.pyc
+.venv
+.env
+
+# Claude
+.claude/worktrees/
+.claude/settings.local.json
+
+# OS / editor junk
+.DS_Store
+._*
+*.tmp.*
+*.swp
