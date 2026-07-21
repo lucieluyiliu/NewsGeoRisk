@@ -131,7 +131,7 @@ Files in `Output/TensionFlow/Figures/`.
 Monthly and quarterly `gap_abs_scaled`; grey bands mark MSCI inclusion-step
 quarters; dashed lines mark First tariffs (2018-07-06), Tariff escalation
 (2019-05-10), Phase-one deal (2020-01-15), Pelosi Taiwan visit (2022-08-02),
-Balloon incident (2023-02-04). The quarterly series peaks in 2020Q4 (0.125), not
+Balloon incident (2023-02-04). The quarterly series peaks in 2020Q3 (0.125), not
 during the 2018-2019 trade war.
 
 ```{r fig1, out.width="100%"}
