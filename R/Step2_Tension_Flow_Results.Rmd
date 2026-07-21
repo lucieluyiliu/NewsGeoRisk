@@ -1,0 +1,180 @@
+---
+title: "Tension vs Bilateral Fund Flows: Steps 1-2 Results"
+author: "Lucie Lu"
+date: "2026-07-07"
+output:
+  html_document:
+    toc: yes
+    code_folding: hide
+    df_print: paged
+    self_contained: yes
+    theme: cosmo
+    toc_float: yes
+knit: (function(input, ...) {
+    source(file.path(dirname(input), "config.R"));
+    rmarkdown::render(input, output_dir = OUTPUT_ROOT) })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(data.table)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+source("config.R")
+
+panel   <- fread(file.path(OUTPUT_ROOT, "tension_flow_panel.csv"))
+ss_flow <- fread(file.path(TAB_DIR, "summary_stats_flows.csv"))
+ss_tens <- fread(file.path(TAB_DIR, "summary_stats_tension.csv"))
+cor_dt  <- fread(file.path(TAB_DIR, "correlations_tension_flow.csv"))
+kbl <- function(x, ...) kable(x, digits = 3, ...) |>
+  kable_styling(bootstrap_options = c("striped", "condensed"), full_width = FALSE)
+```
+
+# Objective
+
+Exploratory association between the news-based US-China tension measure (Henry's
+Reuters slant gap, `gap_abs_scaled`: absolute gap between English and Chinese
+coverage slant of the same events) and bilateral cross-border fund flows: Chinese
+funds into US equities (`China->US`) and US funds into Chinese equities
+(`US->China`). Economic prior: bilateral flows should fall around quarters of
+heightened tension. Known confounder: the 2018-2019 MSCI China A-share inclusion
+drove mechanical index-driven US->China inflows during the trade war, and the flow
+data pools active and passive funds.
+
+# Data and panel construction (Step 1)
+
+Built by `R/Step1_Build_Tension_Flow_Panel.R`; panel saved to
+`Output/TensionFlow/tension_flow_panel.csv`.
+
+- **Tension measure** (read-only): `Henry_updated/data/measures/quarter_to_quarter_df.csv`,
+  2018Q1-2024Q4 (28 quarters); monthly series from `month_by_month_df.csv` used in
+  Figure 1. Key variables: `gap_abs_scaled` (primary), `tone_gap_scaled` (signed).
+- **Flows** (read-only): `~/Dropbox/FlowIntSpillover/Data/bilateral_country_flows_quarterly.csv`,
+  2000Q1-2025Q1. China = CN+HK on both origin and destination sides; origin =
+  Morningstar region of sale. Equal-weighted (`ew_*`) rates winsorized 1%/99% by
+  cell-quarter at source; position-weighted (`pw_*`) rates are dollar ratios.
+  Decomposition (see `fund_ctry_flow README.md`): end-investor component = lagged
+  country weight x fund-total flow; manager rebalancing = residual.
+- **MSCI benchmark revisions**: from `~/Dropbox/MSCI_Index/ACWI/ACWIInclusion.csv`,
+  A-shares identified as `ISO == "CN" & ISO_currency_symbol == "CNH"`. Revision
+  events are read off the data as changes in the modal standard inclusion factor
+  (`std_IIF`) of A-shares: 0 to 2.5% (Jun 2018), 5% (Sep 2018), 10% (May 2019),
+  15% (Aug 2019), 20% (Nov 2019, when mid-caps also enter, +76% securities); no
+  further revisions through Feb 2025. Panel variables: `msci_cn_wt` (A-share ACWI
+  weight, about 0.64% end-2020, 0.40% Feb 2025), `d_msci_cn_wt`, `ashare_iif`
+  (inclusion-factor level), `d_ashare_iif` (revision magnitude), `msci_step`
+  (revision-event dummy, = 1 in 2018Q2, 2018Q3, 2019Q2, 2019Q3, 2019Q4).
+- **Macro/market controls** (read-only, Henry's, from
+  `Henry_updated/data/data_master_file/fund_flow/`, built by his
+  `001_prep_Ret_Vol.py`): US and China real GDP YoY growth (`GDP_growth_yoy`,
+  `GDP_growth_yoy_CN`), USD/CNY quarter-end change (`EX_qoq`), CN minus US
+  short-term rate differential (`IR_diff_CNUS`), CSI300 quarterly return and
+  volatility (`CSI300_ret`, `CSI300_vol`; return = percent change of the
+  quarterly average of month-end index levels). Keyed by end-month yyyymm in the
+  source, converted to the panel quarter key at merge; `CSI300_ret_l1` adds the
+  one-quarter lag. CSI300 coverage ends 2024Q4, so contemporaneous CSI300
+  variables are missing for 2025Q1.
+- The measure enters lagged one quarter via an explicit date join (`*_l1` columns).
+  Regression sample (`in_reg_sample`): 28 quarters per direction, flows
+  2018Q2-2025Q1.
+- Quarter key: integer YYYYQQ (201802 = 2018Q2). Note this differs from the
+  end-month yyyymm convention stated in CLAUDE.md; the flow source file uses YYYYQQ.
+- Review status: both scripts code-reviewed against the raw data (quarter
+  arithmetic and lag join verified exhaustively; one bug found and fixed, the
+  2025Q1 MSCI weight, which was zeroed because MSCI coverage ends 2025-02).
+
+# Summary statistics (Step 2)
+
+Tables produced by `R/Step2_Tension_Flow_Descriptives.R` in `Output/TensionFlow/Tables/`.
+
+## Tension measure, quarterly 2018Q1-2024Q4
+
+```{r ss-tension}
+kbl(ss_tens)
+```
+
+## Flows by direction, regression sample (28 quarters, 2018Q2-2025Q1)
+
+Rates are quarterly fractions; dollar variables in USD bn.
+
+```{r ss-flow}
+kbl(ss_flow[cell == "US->China"], caption = "US->China")
+kbl(ss_flow[cell == "China->US"], caption = "China->US")
+```
+
+US->China flows are an order of magnitude larger than China->US (total flow range
+roughly -10.6 to +9.3 USD bn vs -1.3 to +1.8 USD bn). China->US rates are noisy:
+few funds, and one equal-weighted quarter reaches about +265%.
+
+# Correlations: tension vs flow rates
+
+`cor_contemp` pairs the flow rate at t with `gap_abs_scaled` at t (27 obs; 2025Q1
+lacks a contemporaneous measure); `cor_lag1` uses the measure at t-1 (28 obs).
+
+```{r correlations}
+kbl(cor_dt)
+```
+
+The US->China end-investor rate correlates positively with lagged tension (+0.57
+position-weighted, +0.58 equal-weighted), the pattern expected from the MSCI
+inclusion confound rather than from the tension prior. The US->China
+position-weighted rebalancing rate is the only component with the negative sign
+predicted by the prior (-0.18). China->US correlations are near zero.
+
+# Figures
+
+Files in `Output/TensionFlow/Figures/`.
+
+## Figure 1: tension measure
+
+Monthly and quarterly `gap_abs_scaled`; grey bands mark MSCI inclusion-step
+quarters; dashed lines mark First tariffs (2018-07-06), Tariff escalation
+(2019-05-10), Phase-one deal (2020-01-15), Pelosi Taiwan visit (2022-08-02),
+Balloon incident (2023-02-04). The quarterly series peaks in 2020Q4 (0.125), not
+during the 2018-2019 trade war.
+
+```{r fig1, out.width="100%"}
+include_graphics(file.path(FIG_DIR, "fig1_tension_series.png"))
+```
+
+## Figure 2: tension and bilateral flows
+
+Stacked end-investor (blue) and rebalancing (orange) components with the total net
+flow line, USD bn, under the quarterly tension series, 2016-2025.
+
+```{r fig2, out.width="100%"}
+include_graphics(file.path(FIG_DIR, "fig2_flows_vs_tension.png"))
+```
+
+## Figure 3: flow rates vs lagged tension
+
+Total flow rate at t against `gap_abs_scaled` at t-1 with a linear fit; triangles
+mark MSCI inclusion-step quarters.
+
+```{r fig3, out.width="100%"}
+include_graphics(file.path(FIG_DIR, "fig3_scatter_tension_flow.png"))
+```
+
+## Figure 4: MSCI benchmark revisions
+
+Top: modal standard inclusion factor of China A-shares in ACWI, with the five
+revision events marked. Bottom: A-share weight in ACWI; between revisions the
+weight moves with prices (the 2020-21 rise and the 2022-24 decline are price
+effects, not benchmark changes).
+
+```{r fig4, out.width="100%"}
+include_graphics(file.path(FIG_DIR, "fig4_msci_benchmark_revisions.png"))
+```
+
+# Notes for the regression step
+
+- The raw US->China association runs against the prior through the end-investor
+  component, consistent with the documented MSCI inclusion confound; regressions
+  (Step 3) control for the A-share ACWI weight change and inclusion-step dummies,
+  with an active-only re-aggregation planned as robustness (Step 4).
+- For China->US, position-weighted rates and dollar flows are the more reliable
+  dependent variables given small fund counts.
+```{r session, include=FALSE}
+sessionInfo()
+```
